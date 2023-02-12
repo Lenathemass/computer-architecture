@@ -1,0 +1,8 @@
+p=int(input("Enter no.of performance:"))
+ct=[]
+for i in range(0,p):
+cp=float(input("Enter the clock cycle per instruction:"))
+cr=float(input("Enter the clock rate in GHZ:"))
+a=1000*cp/cr
+ct.append(a)
+print("The proccessor has lowest execution:",ct)
