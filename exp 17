@@ -1,0 +1,12 @@
+def restoring_division(dividend, divisor):
+quotient = 0
+remainder = dividend
+while remainder >= divisor:
+quotient += 1
+remainder -= divisor
+return quotient, remainder
+dividend =int(input("enter number:"))
+divisor =int(input("enter number:"))
+quotient, remainder = restoring_division(dividend, divisor)
+print("Quotient: ", quotient)
+print("Remainder: ", remain
