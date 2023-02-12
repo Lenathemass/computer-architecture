@@ -1,0 +1,9 @@
+a=int(input("Enter number1:"))
+b=int(input("Enter number2:"))
+c=8
+mul=a*b
+div=a/b
+print("The cycle value is:",c)
+ins=int(input("Enter number of instructions:"))
+print("The performance measrue is:",ins/c)
+print("result multiplication
