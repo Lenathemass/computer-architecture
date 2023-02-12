@@ -1,0 +1,11 @@
+a=int(input("Enter number1:"))
+b=int(input("Enter number2:"))
+c=2
+add=a+b
+sub=a-b
+print("The cycle value is:",c)
+ins=int(input("Enter number of instructions:"))
+print("The performance measrue is:",ins/c)
+print("result addition=",add)
+print("result subtraction =",sub)
+24.
